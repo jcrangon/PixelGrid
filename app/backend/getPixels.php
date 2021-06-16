@@ -20,6 +20,7 @@ if(isset($_POST['userNumber'])){
     //var_dump($t);
 
     $_SESSION['finalTable'] = $t;
+    $_SESSION['userNumber'] = $userNumber;
     header("location:../../grid-result.php");
 
 

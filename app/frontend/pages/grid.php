@@ -2,6 +2,12 @@
 session_start();
 $table = $_SESSION['finalTable'];
 ?>
+<div class="absolute-hook">
+    <div class="orig-number">
+        <iframe width="50" height="50" src="http://localhost/svet/pixelGrid/app/frontend/assets/iframes/orig-image.php"></iframe>
+        <p><small>Original image</small></p>
+    </div>
+</div>
 <div class="grid-container d-flex flex-row justify-content-center mb-5" style="margin-top:30px">
     <div class="new-column">
 <?php
@@ -34,8 +40,4 @@ $table = $_SESSION['finalTable'];
 
 ?>
     </div>
-</div>
-
-<div class="sample">
-
 </div>
